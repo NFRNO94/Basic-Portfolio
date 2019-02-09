@@ -1,0 +1,34 @@
+<style>
+    {
+        margin:0;
+        padding:0;
+    }
+    html, body{
+        width: 100%;
+        height: 100%;
+        font-size: 14px;
+        font-weight:normal;
+    }
+    .background{
+        width: 960px;
+        height: 600px;
+        background-image: url(/Users/NFRNO/Desktop/Homework/Basic-Portfolio/assets/images/circles-and-roundabouts.png);
+        background-repeat: repeat-x;
+        background-size: cover;
+        position: relative;
+    }
+    .nav{
+        width: 350px;
+        height: 28px;
+        background-color: white;
+    }
+    .nav a{
+        text-decoration: none;
+        color: gray;
+        font-size: 25px;
+        font-family: Arial;
+        font-weight: bold;
+        width: 100%;
+        display: inline;
+    }
+</style>
