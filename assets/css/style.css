@@ -15,7 +15,7 @@ body{
 .container {
         background-image: url(../images/darem.png);
         border-color: darkred;
-        border-width: 2px;
+        border-width: 5px;
         border-style: solid;
         width: 960px;
         margin: 10px auto;
@@ -38,14 +38,6 @@ body{
 .nav{
         background-color: darkred;
         padding: 10px;
-    }
-.footer {
-        position: fixed;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        height: 10px;
-        background-color: darkred;
     }
 ol {
         padding: 10px;
@@ -80,12 +72,18 @@ a {
         border-width: 5px;
     }
 #ptitle {
-        padding: 23px;
+        color: lightgray;
+        font-weight: bold;
+        padding: 15px;
         margin: 10px;
-        font-style: Arial;
-        font-size: 40px;
+        margin-bottom: 0px;
         width: fit-content;
-
+        background-color: black;
+        bottom: 0;
+        font-size: 40px;
+        font-family: Arial;
+        border-style: solid darkred;
+        border-width: 2px;
     }
 hr { 
     display: block;
@@ -97,6 +95,11 @@ hr {
     border-width: 2px;
     border-color: darkred;
     }
+#bodytext {
+    line-height: 30px;
+    font-style: arial lightgray;
+    font-size: 23px;
+}
 #form {
         color: lightgray;
 }
@@ -120,9 +123,10 @@ hr {
 }
 .container2 {
     position: relative;
-    max-width: 400px;
-    max-height: 350px;
-    margin: 0 auto;
+    width: 350px;
+    margin: 10px;
+    border: 2px solid darkred;
+    float: left;
 }
   .container2 .content {
     position: absolute;
@@ -131,13 +135,19 @@ hr {
     background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
     color: lightgray;
     width: 100%;
-    padding: 20px;
+    height: auto;
+    padding: 5px;
+    padding-left: 15px;
     text-align: left;
+  }
+  .container2 img {
+    width: 100%;
+    height: 250px;
   }
   .container3 {
     background-image: url(../images/darem.png);
     border-color: darkred;
-    border-width: 2px;
+    border-width: 5px;
     border-style: solid;
     width: 960px;
     margin: 10px auto;
@@ -146,4 +156,12 @@ hr {
     margin-bottom: 50px;
     position: center;
     overflow: auto;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    background-color: darkred;
 }
