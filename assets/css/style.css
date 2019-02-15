@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-}
+    }
 body{
         background-image: url("../images/darkmatter.png");
         background-position: center;
@@ -19,11 +19,11 @@ body{
         border-style: solid;
         width: 960px;
         margin: 10px auto;
+        margin-top: 50px;
         padding: 15px;
-        margin-bottom: 20px;
+        margin-bottom: 50px;
         position: center;
-        text-align: left;
-        overflow: auto;
+        overflow: auto
     }
 #name {
         color: lightgray;
@@ -80,12 +80,13 @@ a {
         border-width: 5px;
     }
 #ptitle {
-        background-color: black;
         padding: 23px;
         margin: 10px;
         font-style: Arial;
         font-size: 40px;
-}
+        width: fit-content;
+
+    }
 hr { 
     display: block;
     margin-top: 0.5em;
@@ -110,30 +111,39 @@ hr {
     color: lightgray;
     background-color: darkred;   
 }
-.imgcontain {
-    display: inline-block;
-    width: 960px;
-    height: 100%;
-    margin: 10px;
-}
-#projectimg {
-    width: 200px;
-    height: 150px;
-}
-.column {
-    float: left;
-    width: 50%;
-    padding: 10px;
-  }
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
 .ptext {
     color: lightgray;
     font-weight: bold;
     font-style: arial;
     font-size: 28px;
     margin: 3px;
+}
+.container2 {
+    position: relative;
+    max-width: 400px;
+    max-height: 350px;
+    margin: 0 auto;
+}
+  .container2 .content {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: lightgray;
+    width: 100%;
+    padding: 20px;
+    text-align: left;
+  }
+  .container3 {
+    background-image: url(../images/darem.png);
+    border-color: darkred;
+    border-width: 2px;
+    border-style: solid;
+    width: 960px;
+    margin: 10px auto;
+    margin-top: 50px;
+    padding: 15px;
+    margin-bottom: 50px;
+    position: center;
+    overflow: auto;
 }
